@@ -1,0 +1,9 @@
+post_install() {
+    echo "qtile-plasma installed successfully, however it still needs to be enabled in your config"
+    echo "See configuration introduction here: https://github.com/numirias/qtile-plasma/blob/master/README.md#installation"
+}
+
+post_upgrade() {
+    post_install
+}
+
